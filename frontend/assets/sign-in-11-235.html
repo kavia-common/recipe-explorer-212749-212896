@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In - 11-235</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./sign-in-11-235.css">
+</head>
+<body>
+  <main id="screen-sign-in-11-235" class="figma-screen" role="main" aria-label="Sign In Screen">
+    <!-- Title Group -->
+    <section id="group-title-13-110" class="rel" aria-label="Title">
+      <p id="text-hello-12-29">Hello,</p>
+      <p id="text-welcome-12-30">Welcome Back!</p>
+    </section>
+
+    <!-- Email Input component -->
+    <section id="input-30-585" class="rel" aria-label="Email input">
+      <div id="input-30-585-rect" aria-hidden="true"></div>
+      <label id="input-30-585-label" for="email">Email</label>
+      <span id="input-30-585-placeholder">Enter Email</span>
+      <!-- Real input for accessibility (hidden visually but maintain semantics) -->
+      <input id="email" type="email" aria-label="Email" style="position:absolute; left:0; top:26px; width:315px; height:55px; opacity:0; border:0;"/>
+    </section>
+
+    <!-- Password Input component -->
+    <section id="input-30-590" class="rel" aria-label="Password input">
+      <div id="input-30-590-rect" aria-hidden="true"></div>
+      <label id="input-30-590-label" for="password">Enter Password</label>
+      <span id="input-30-590-placeholder">Enter Password</span>
+      <input id="password" type="password" aria-label="Password" style="position:absolute; left:0; top:26px; width:315px; height:55px; opacity:0; border:0;"/>
+    </section>
+
+    <!-- Forgot Password -->
+    <div id="forgot-12-91" class="rel">
+      <a id="forgot-12-94" href="#" aria-label="Forgot Password?">Forgot Password?</a>
+    </div>
+
+    <!-- Big Button CTA -->
+    <button id="big-button-54-668" class="center-flex" aria-label="Sign In">
+      <span class="label">Sign In</span>
+      <img id="big-button-arrow" src="figmaimages/figma_image_54_668_53_625.svg" alt="Arrow Right">
+    </button>
+
+    <!-- Or Line group -->
+    <div id="group-line-12-139" class="rel" aria-hidden="false" aria-label="Or Sign in With">
+      <div id="line-12-140"></div>
+      <span id="or-text-12-142">Or Sign in With</span>
+      <div id="line-12-141"></div>
+    </div>
+
+    <!-- Social Buttons -->
+    <div id="btn-google-13-35" class="rel" aria-label="Sign in with Google">
+      <div id="btn-google-rect"></div>
+      <!-- Google icon vectors (as images per imagePath; where absent, kept as decorative) -->
+      <img id="google-vector-13-39" src="figmaimages/figma_image_13_39.svg" alt="Google icon shape">
+      <img id="google-vector-13-42" src="figmaimages/figma_image_13_42.svg" alt="" aria-hidden="true">
+    </div>
+
+    <div id="btn-facebook-13-49" class="rel" aria-label="Sign in with Facebook">
+      <div id="btn-facebook-rect"></div>
+      <img id="fb-icon-wrapper" src="figmaimages/figma_image_13_58.svg" alt="Facebook icon">
+    </div>
+
+    <!-- Status Bar -->
+    <div id="status-13-71" class="rel" aria-hidden="true">
+      <div id="status-time" class="rel">
+        <span id="status-time-text">19:27</span>
+      </div>
+      <!-- Symbols are omitted as independent vectors since they’re decorative and not provided as assets fully; time shown -->
+    </div>
+
+    <!-- Home Indicator -->
+    <div id="home-indicator-42-614" class="rel" aria-hidden="true">
+      <div id="home-indicator-line"></div>
+    </div>
+  </main>
+
+  <script src="./app.js"></script>
+  <script src="./sign-in-11-235.js"></script>
+</body>
+</html>
